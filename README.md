@@ -59,6 +59,24 @@ docker run -d -p 5000:5000 my_fastapi_app:latest
 
 3. Access the web app in your browser at http://localhost:5000.
 
+## Some Snapshots of the project : 
+
+![Basic EDA](https://github.com/RushikeshKothawade07/supply-chain-project/blob/main/screenshots/eda.png)
+
+![Textual Data Analysis](https://github.com/RushikeshKothawade07/supply-chain-project/blob/main/screenshots/eda-words.png)
+
+![Flask Web App Home Page](https://github.com/RushikeshKothawade07/supply-chain-project/blob/main/screenshots/home-input.jpg)
+
+![Output predictions](https://github.com/RushikeshKothawade07/supply-chain-project/blob/main/screenshots/output.jpg)
+
+![FastAPI](https://github.com/RushikeshKothawade07/supply-chain-project/blob/main/screenshots/fastapi.jpg)
+
+![Postman JSON queries](https://github.com/RushikeshKothawade07/supply-chain-project/blob/main/screenshots/postman-json.jpg)
+
+![Docker Deployment](https://github.com/RushikeshKothawade07/supply-chain-project/blob/main/screenshots/docker.jpg)
+
+
+
 ## Contributing 
 
 Contributions are welcome! If you find any issues or want to add new features, please open an issue or submit a pull request.
