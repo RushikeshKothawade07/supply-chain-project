@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+scikit-learn
+requests
+torch
+transformers
+flask
+tensorflow
+nltk

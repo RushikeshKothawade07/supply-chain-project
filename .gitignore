@@ -1,0 +1,9 @@
+venv
+/venv
+.venv
+/distilbert_combined_model2.h5
+/distilbert_combined_model3
+/distilbert_tokenizer3
+/query_result_2000.993493Z.parquet
+./supply_chain_project.ipynb
+/query_result_2000.993493Z.parquet

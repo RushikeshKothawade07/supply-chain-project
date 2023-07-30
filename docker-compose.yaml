@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  fastapi_app:
+    image: my_fastapi_app:01
+    ports:
+      - "8000:8000"
+    deploy:
+      replicas: 3  # Adjust the number of replicas as per your requirement
+    networks:
+      - fastapi_network
+
+networks:
+  fastapi_network:
+    driver: overlay
