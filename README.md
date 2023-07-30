@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/python-3.9-blue.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.68.1-green.svg)
 ![Flask](https://img.shields.io/badge/Flask-2.0.1-yellow.svg)
-![Docker](https://img.shields.io/badge/Docker-Swarm-blueviolet.svg)
+![Docker](https://img.shields.io/badge/Docker-v2.x-blue.svg)
 
 ## Description
 This project is a Supply Chain Logistics Multi-class Classification web application built using FastAPI and Flask. It uses a pre-trained DistilBERT model for text classification into various classes related to supply chain logistics. The API is built using FastAPI, and the front-end web interface is created with Flask.
