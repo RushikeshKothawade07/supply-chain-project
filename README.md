@@ -69,6 +69,8 @@ docker run -d -p 5000:5000 my_fastapi_app:latest
 
 [Files](https://drive.google.com/drive/folders/1wa3O1ZiLrnzPnieJBZcfeiZ6pEOxfKWz?usp=sharing)
 
+[Deployment frontend - (Error due to large size req)](http://rushikesh220.pythonanywhere.com/)
+
 ## Some Snapshots of the project : 
 
 ![Basic EDA](https://github.com/RushikeshKothawade07/supply-chain-project/blob/main/screenshots/eda.png)
