@@ -1,9 +1,9 @@
 # Supply Chain Logistics -  Multi-class Classification (FastAPI and Flask) - DistilBERT
 
-![Python](https://img.shields.io/badge/python-3.9-blue.svg)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.68.1-green.svg)
-![Flask](https://img.shields.io/badge/Flask-2.0.1-yellow.svg)
-![Docker](https://img.shields.io/badge/Docker-v2.x-blue.svg) 
+![Python](https://img.shields.io/badge/python-3.11-blue.svg)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.100-green.svg)
+![Flask](https://img.shields.io/badge/Flask-2.2.2-yellow.svg)
+![Docker](https://img.shields.io/badge/Docker-24.0.2-blue.svg) 
 
 ## Description
 This project is a Supply Chain Logistics Multi-class Classification web application built using FastAPI and Flask. It uses a pre-trained DistilBERT model for text classification into various classes related to supply chain logistics. The API is built using FastAPI, and the front-end web interface is created with Flask. The main aim of this project was not to focus on model's accuracy but to implement an end-to-end deployment of a NLP Multi-class Classification Task using a Transfer Learning approach and fine tune a state-of-the-art pre-trained model.
