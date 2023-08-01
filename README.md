@@ -10,7 +10,7 @@ This project is a Supply Chain Logistics Multi-class Classification web applicat
 
 ### DistilBERT  ![DistilBERT](https://img.shields.io/badge/DistilBERT-Compact%20%26%20Faster-yellow.svg)      [Documentation](https://huggingface.co/docs/transformers/model_doc/distilbert)
 
-DistilBERT is a compact and faster variant of BERT, a state-of-the-art natural language processing model. It maintains BERT's performance while reducing its size and computation time, making it ideal for resource-constrained environments and faster inference on NLP tasks.
+DistilBERT is a compact and faster variant of BERT, a state-of-the-art natural language processing model. It maintains BERT's performance while reducing its size and computation time, making it ideal for resource-constrained environments and faster inference on NLP tasks.  It has 40% less parameters than bert-base-uncased, runs 60% faster while preserving over 95% of BERT’s performances as measured on the GLUE language understanding benchmark.
 
 ## Features
 - Text classification for supply chain logistics using DistilBERT
