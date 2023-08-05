@@ -8,6 +8,8 @@
 ## Description
 This project is a Supply Chain Logistics Multi-class Classification web application built using FastAPI and Flask. It uses a pre-trained DistilBERT model for text classification into various classes related to supply chain logistics. The API is built using FastAPI, and the front-end web interface is created with Flask. The main aim of this project was not to focus on model's accuracy but to implement an end-to-end deployment of a NLP Multi-class Classification Task using a Transfer Learning approach and fine tune a state-of-the-art pre-trained model.
 
+The dataset consists of thousands of news articles and their headlines with the corresponding categories.
+
 ### DistilBERT  ![DistilBERT](https://img.shields.io/badge/DistilBERT-Compact%20%26%20Faster-yellow.svg)      [Documentation](https://huggingface.co/docs/transformers/model_doc/distilbert)
 
 DistilBERT is a compact and faster variant of BERT, a state-of-the-art natural language processing model. It maintains BERT's performance while reducing its size and computation time, making it ideal for resource-constrained environments and faster inference on NLP tasks.  It has 40% less parameters than bert-base-uncased, runs 60% faster while preserving over 95% of BERT’s performances as measured on the GLUE language understanding benchmark.
