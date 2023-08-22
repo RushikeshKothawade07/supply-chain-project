@@ -104,19 +104,29 @@ The `sparse_categorical_crossentropy` loss function was chosen because it is wel
 
 3. **Efficient Computation**: Compared to `categorical_crossentropy`, which requires one-hot encoding of target labels, `sparse_categorical_crossentropy` is computationally more efficient as it avoids the need to convert labels into one-hot format. This is particularly beneficial when dealing with large datasets and complex models.
 
-### Evaluation Metric: Accuracy
+# Evaluation Metrics
 
-We selected the `accuracy` metric to evaluate the performance of our classification model. Accuracy is a widely used evaluation metric for classification problems and measures the proportion of correctly classified samples over the total number of samples. Here's why accuracy was chosen:
+In this multi-class classification task with imbalanced classes, it's important to consider a range of evaluation metrics beyond accuracy to assess the model's performance effectively:
 
-1. **Interpretability**: Accuracy is easy to interpret and understand. It provides a clear measure of the model's overall performance by quantifying the percentage of correct predictions.
+1. **Precision, Recall, and F1-Score**:
+   - **Precision:** Measures the accuracy of positive predictions, indicating the model's ability to avoid false positives.
+   - **Recall:** Measures the proportion of true positives captured, indicating the model's ability to avoid false negatives.
+   - **F1-Score:** The harmonic mean of precision and recall, providing a balance between precision and recall.
 
-2. **Balanced Classes**: Our dataset has a relatively balanced distribution of classes. In such scenarios, accuracy is a suitable metric for assessing model performance, as it treats all classes equally.
+2. **Confusion Matrix**:
+   - A detailed breakdown of true positives, false positives, true negatives, and false negatives for each class, aiding in identifying problematic classes.
 
-3. **Effectiveness in Balanced Datasets**: When the classes are balanced, accuracy can provide meaningful insights into how well the model is performing across all classes.
+3. **ROC-AUC (Receiver Operating Characteristic - Area Under the Curve)**:
+   - Evaluates the model's capability to distinguish between classes. It's particularly useful for multi-class classification, offering insights into performance across different class pairs.
 
-Please note that while accuracy is a valuable metric, it might not be sufficient in cases of imbalanced datasets. In such situations, additional metrics like precision, recall, F1-score, or area under the Receiver Operating Characteristic (ROC) curve might be more informative to assess the model's performance for specific classes.
+4. **Class-wise Metrics**:
+   - Precision, Recall, and F1-Score computed separately for each class. These metrics reveal the model's performance for individual classes, crucial when handling imbalanced datasets.
 
-In conclusion, we chose the `sparse_categorical_crossentropy` loss function and the `accuracy` metric for their efficiency and interpretability in our multi-class classification task. It allowed us to train the model effectively and gauge its overall performance across different classes in our dataset.
+5. **Weighted Metrics**:
+   - Weighted versions of precision, recall, and F1-Score account for class imbalance by assigning higher weights to minority classes, offering a balanced assessment of overall model performance.
+
+In summary, while accuracy provides a simple metric, it may not be sufficient for assessing model performance in cases of imbalanced multi-class classification. Utilizing precision, recall, F1-Score, ROC-AUC, and class-wise metrics collectively provides a more comprehensive understanding of model performance across all classes.
+
 
 
 ## Tasks 
