@@ -67,7 +67,7 @@ docker run -d -p 5000:5000 my_fastapi_app:latest
 
 ### Colab File
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NPVSyA0qf4P0-bhdyVUeTsD8B2v58VS1?usp=sharing)
+[![Open in Colab](https://colab.research.google.com/drive/1kdm0LncLTRV_jdZuA2V3PSAGOHYc-vKX?usp=sharing)
 
 [Files](https://drive.google.com/drive/folders/1wa3O1ZiLrnzPnieJBZcfeiZ6pEOxfKWz?usp=sharing)
 
